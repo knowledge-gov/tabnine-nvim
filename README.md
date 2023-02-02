@@ -11,12 +11,12 @@ Tabnine client for neovim
 Using [vimplug](https://github.com/junegunn/vim-plug)
 
 ```
-Plug 'codota/tabnine-nvim', { 'do': './dl_binaries.sh' }
+Plug 'codota/tabnine-nvim', { 'do': './dl_binaries.sh', 'branch': 'beta' }
 ```
 
 Using [packer](https://github.com/wbthomason/packer.nvim)
 ```lua
-  use { 'codota/tabnine-nvim', run = "./dl_binaries.sh" }
+  use { 'codota/tabnine-nvim', run = './dl_binaries.sh', branch = 'beta' }
 ```
 
 Basic configuration activation:
